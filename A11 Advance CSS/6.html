@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrayScale</title>
+    <style>
+      .container {
+        height: 400px;
+        width: 600px;
+        border: 5px solid black;
+        margin: auto;
+        background-color: #faf9fc;
+      }
+      img {
+        margin: -20px 35px;
+        border: 2px;
+        width: 580px;
+        height: 310px;
+        margin-left: 9px;
+       }
+       h1{
+        text-align: center;
+        color: #4108fb;
+        text-decoration: underline;
+      }
+      img:hover{
+        filter: grayscale(90%);
+      }
+      .container:hover{
+        background-color: #4108fb;
+      }
+     </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Hover To Reveal The Image. </h1>
+      <img src="island img.jpg" title="Island-img" alt="Island img" />
+    </div>
+  </body>
+</html>
